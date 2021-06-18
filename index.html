@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Happy Anniversary</title>
+  <link rel="icon" href="happy anniversary.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+   #top {
+    background-color: pink;
+    padding-bottom: 25px;
+   
+   }
+   video {
+    height: 300px;
+    width: 500px;
+   }
+   h1 {
+    text-shadow: 2px 2px grey;
+    color: white;
+   }
+   #bottom {
+    background-color: #696969;
+    border-radius: 50px;
+    width: 20%;
+    padding: 10px;
+    margin-top: -15px;
+   }
+   p {
+    color: white
+   }
+   button{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+   }
+  </style>
+ <head>
+ <body>
+  <script>
+   var c = ["pink", "red", "orange", "blue", "green", "lime"];
+   var i = 0;
+   function changeTheme() {
+    if (i > 5) {
+     i = 0;
+    }
+    document.getElementById("top").style.backgroundColor= c[i];
+    i++;
+   }
+  </script>
+  <center>
+   <section id="top">
+    <h1>Happy Anniversary Nana And Nani</h1>
+    <br>
+    <br>
+    <video src="happy anniversary.mp4" controls></video>
+   </section>
+   <section id="bottom">
+    <p>Happy Anivarsary Nana and Nani. I wish I could come and meet you. But I couldn't. I am really sorry. But do not worry I will be able to meet you next time. Have Fun!</p>
+    <br>
+    <p>From Anjor</p>
+   </section>
+   <br>
+   <br>
+   <button onclick="changeTheme()">Click to change theme</button>
+  </center>
+ <body>
+<html>
